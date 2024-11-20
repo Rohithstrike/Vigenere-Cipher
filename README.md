@@ -1,36 +1,53 @@
 # Vigenère Cipher Tool
 
-The Vigenère Cipher Tool is a web-based application designed to easily encode and decode messages using the Vigenère Cipher. This classical encryption algorithm uses a keyword to perform polyalphabetic substitution, offering a higher level of security compared to simple substitution ciphers.
+The **Vigenère Cipher Tool** is a web-based application designed to easily encode and decode messages using the Vigenère Cipher. This classical encryption algorithm uses a keyword to perform polyalphabetic substitution, offering a higher level of security compared to simple substitution ciphers.
 
 ## Features
 
-- **Encode Text**: Encrypt plaintext using a provided key.
-- **Decode Text**: Decrypt encrypted text using the same key.
-- **Simple and Intuitive Interface**: User-friendly web interface that allows easy interaction.
-- **Cross-Browser Compatibility**: Works on all modern browsers with no additional setup.
+- **Encode Text**: Encrypt plaintext using a provided key.  
+- **Decode Text**: Decrypt encrypted text using the same key.  
+- **Simple and Intuitive Interface**: User-friendly web interface that allows easy interaction.  
+- **Cross-Browser Compatibility**: Works seamlessly on all modern browsers without additional setup.  
 
 ## Live Demo
 
-Check out the live version of the Vigenère Cipher tool [here](#) *(link to live demo if hosted online)*.
+Try the Vigenère Cipher Tool directly in your browser: [Live Demo](https://rohithstrike.github.io/Vigenere-Cipher/)  
 
 ## How to Use
 
-1. **Enter Text**: Type or paste the plaintext you want to encode or the ciphertext you want to decode.
-2. **Enter Key**: Input the cipher key (a string of alphabetic characters) used for both encoding and decoding.
-3. **Select Action**: Choose between "Encode" or "Decode" based on your requirement.
-4. **View Result**: The encoded or decoded text will appear below in the result section.
+1. **Enter Text**:  
+   - If encoding, input the plaintext you wish to encrypt.  
+   - If decoding, input the ciphertext you want to decrypt.  
+2. **Enter Key**: Provide the cipher key, which should consist of alphabetic characters only.  
+3. **Select Action**:  
+   - Choose "Encode" to encrypt the message.  
+   - Choose "Decode" to decrypt the message.  
+4. **View Result**: The output will be displayed in the results section below the input fields.  
 
 ### Example Usage
 
-- **Plaintext**: `HELLO WORLD`
-- **Key**: `KEY`
-- **Encoded Text**: `RIJVS UYVJN`
-- **Decoded Text**: `HELLO WORLD`
+#### Encoding
+- **Plaintext**: `HELLO WORLD`  
+- **Key**: `KEY`  
+- **Encoded Text**: `RIJVS UYVJN`  
+
+#### Decoding
+- **Ciphertext**: `RIJVS UYVJN`  
+- **Key**: `KEY`  
+- **Decoded Text**: `HELLO WORLD`  
 
 ## Installation
 
-To run the Vigenère Cipher Tool locally, follow these steps:
+To run the Vigenère Cipher Tool locally, follow these steps:  
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your local machine:  
    ```bash
    git clone https://github.com/Rohithstrike/Vigenere-Cipher.git
+
+
+   Technology Stack
+
+	•	HTML5: Provides the structure and content for the web application.
+	•	CSS3: Styles the interface for an intuitive and user-friendly experience.
+	•	JavaScript: Implements the core Vigenère Cipher logic and interactivity.
+
